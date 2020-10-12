@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={Logo} />
+        <img src={Logo} alt="logo" />
         <p>
           LAST STOP: FREEDOM
         </p>
