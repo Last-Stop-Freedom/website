@@ -8,7 +8,16 @@ function App() {
         <p>
           LAST STOP: FREEDOM
         </p>
+        <hr
+          style={{
+            width: '35vw',
+            opacity: 0.5,
+            marginBottom: 20
+          }}
+        />
         <em>There is a solution.</em>
+        <br />
+        <br />
       </header>
     </div>
   );
