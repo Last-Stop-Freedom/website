@@ -24,7 +24,7 @@ function App() {
         <em>There is a solution.</em>
         <div className="info">
           <p>Last Stop: Freedom is a group of alcoholics who meet once a
-        week to discuss a program of recovery described in the book Alcoholics Anonymous.</p>
+        week to discuss the program of recovery described in the book Alcoholics Anonymous.</p>
           <p>The meeting is currently being held every <b>Sunday @ 7:30pm EST</b>, online using Zoom.</p>
 
           <p><a href={link} {...linkProps}>Click here to join the meeting</a> or enter the Meeting ID below into Zoom.</p>
