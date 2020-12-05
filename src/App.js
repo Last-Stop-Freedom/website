@@ -32,16 +32,20 @@ function App() {
         </div>
         <hr
           style={{
-            width: '35vw',
-            opacity: 0.5,
+            width: '30vw',
+            opacity: 0.4,
             marginBottom: 10
           }}
         />
         <div className="info">
+          <p className="broad-highway">
+            THE BROAD HIGHWAY
+          </p>
           <p>Step 11 Morning Meditation <b>Monday to Friday @ 6:00am - 6:30am EST</b>, online using Zoom.</p>
 
           <p><a href={morningMeditationLink} {...linkProps}>Click here to join the meeting</a> or enter the Meeting ID below into Zoom.</p>
           <p>Zoom Meeting ID: 84780707410</p>
+          <p>Passcode: 233125</p>
         </div>
       </header>
     </div>
