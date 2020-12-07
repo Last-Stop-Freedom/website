@@ -4,7 +4,7 @@ import Logo from './logo.svg'
 let link = 'https://us02web.zoom.us/j/87994984765'
 let linkProps = { target: "_blank", rel: "noopener noreferrer" }
 
-let morningMeditationLink = 'https://us02web.zoom.us/j/84780707410'
+let morningMeditationLink = 'https://us02web.zoom.us/j/84780707410?pwd=OEFLMVZqQzh3L0Q4YkozN1cyazVIdz09'
 
 function App() {
   return (
