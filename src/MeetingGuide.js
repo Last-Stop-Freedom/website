@@ -8,7 +8,7 @@ export default () => {
 
         <p>
           Welcome to the Last Stop group of Alcoholics Anonymous.
-          This is an open meeting. We meet every Sunday evening at 8:00 p.m. We begin this meeting with a
+          This is an open meeting. We meet every Sunday evening at 7:30 p.m. We begin this meeting with a
           moment of silence followed by the <b>Step Three Prayer</b> (p.63). Let us take that moment now:
           </p>
         <p className="quote">
