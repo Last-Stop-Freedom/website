@@ -41,7 +41,7 @@ function App() {
           <p className="broad-highway">
             THE BROAD HIGHWAY
           </p>
-          <p>Step 11 Morning Meditation <b>Monday to Friday @ 6:00am - 6:30am EST</b>, online using Zoom.</p>
+          <p>Step 11 Morning Meditation <b>Monday to Friday @ 6:45am - 7:15am EST</b>, online using Zoom.</p>
 
           <p><a href={morningMeditationLink} {...linkProps}>Click here to join the meeting</a> or enter the Meeting ID below into Zoom.</p>
           <p>Zoom Meeting ID: 84780707410</p>
