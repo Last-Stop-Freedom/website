@@ -51,6 +51,7 @@ export default () => {
           personally relate to them.
         </p>
         <p>
+          <b>NOTE: If the meeting has more than 25 people, skip the checkin and remind users that they can stay after the meeting to introduce themselves.</b> <br />
           Let us take a moment to ‘check-in’ by going around the room and introducing ourselves.
         </p>
         <hr />
