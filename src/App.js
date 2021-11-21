@@ -1,14 +1,16 @@
 import React from 'react';
 import Logo from './logo.svg'
+import {Link} from 'react-router-dom'
 
 let link = 'https://us02web.zoom.us/j/87994984765'
 let linkProps = { target: "_blank", rel: "noopener noreferrer" }
 
-let morningMeditationLink = 'https://us02web.zoom.us/j/84780707410?pwd=OEFLMVZqQzh3L0Q4YkozN1cyazVIdz09'
-
 function App() {
   return (
     <div className="App">
+      <Link to = "/meeting-guide" className="meetingguidelink"> 
+      MEETING GUIDE
+      </Link>
       <header className="App-header">
         <img src={Logo} alt="logo" />
         <p>
@@ -29,23 +31,6 @@ function App() {
 
           <p><a href={link} {...linkProps}>Click here to join the meeting</a> or enter the Meeting ID below into Zoom.</p>
           <p>Zoom Meeting ID: 87994984765</p>
-        </div>
-        <hr
-          style={{
-            width: '30vw',
-            opacity: 0.4,
-            marginBottom: 10
-          }}
-        />
-        <div className="info">
-          <p className="broad-highway">
-            THE BROAD HIGHWAY
-          </p>
-          <p>Step 11 Morning Meditation <b>Monday to Friday @ 6:45am - 7:15am EST</b>, online using Zoom.</p>
-
-          <p><a href={morningMeditationLink} {...linkProps}>Click here to join the meeting</a> or enter the Meeting ID below into Zoom.</p>
-          <p>Zoom Meeting ID: 84780707410</p>
-          <p>Passcode: 233125</p>
         </div>
       </header>
     </div>
